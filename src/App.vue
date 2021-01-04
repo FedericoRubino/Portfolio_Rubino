@@ -1,22 +1,23 @@
 <template>
   <div>
-    <div id="nav">
-      <Navigation/>
-      <!-- <router-link to="/">Home</router-link> |
-      <router-link to="/cats">Cats</router-link>
-      <router-link to="/dogs">Dogs</router-link>
-      <router-link to="/pet">Pet</router-link> -->
-    </div>
-    <router-view/>
+    <Navigation/>
+    <!-- <router-link to="/">Home</router-link> |
+    <router-link to="/cats">Cats</router-link>
+    <router-link to="/dogs">Dogs</router-link>
+    <router-link to="/pet">Pet</router-link> -->
+    <router-view></router-view>
+    <Footer/>
   </div>
 </template>
 <script>
 // @ is an alias to /src
 import Navigation from '@/components/includes/navigation.vue'
+import Footer from '@/components/includes/footer.vue'
 export default {
   name: 'app',
   components: {
-    Navigation
+    Navigation,
+    Footer
   }
 }
 </script>

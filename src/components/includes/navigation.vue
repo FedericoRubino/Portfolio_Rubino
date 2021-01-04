@@ -7,7 +7,7 @@
               aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="#">Navbar</a>
+            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
             <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item active">
@@ -16,13 +16,16 @@
                     <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/cats">Cats</a>
+                    <a class="nav-link" href="/Profile">Profile</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/dogs">Dogs</a>
+                    <a class="nav-link" href="/Resume">Resume</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/pet">Pet</a>
+                    <a class="nav-link" href="/ComputerScience">Computer Science</a>
+                </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="/Tile">Tile</a>
                 </li>
                 </ul>
             </div>

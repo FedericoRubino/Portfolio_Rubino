@@ -1,5 +1,5 @@
 <template>
     <div>
-        Cat
+        Computer Science
     </div>
 </template>

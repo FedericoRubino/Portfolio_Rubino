@@ -1,5 +1,5 @@
 <template>
     <div>
-        Dog
+        Profile
     </div>
 </template>
