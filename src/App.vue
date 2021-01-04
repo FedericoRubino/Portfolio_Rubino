@@ -1,11 +1,25 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div>
+    <div id="nav">
+      <Navigation/>
+      <!-- <router-link to="/">Home</router-link> |
+      <router-link to="/cats">Cats</router-link>
+      <router-link to="/dogs">Dogs</router-link>
+      <router-link to="/pet">Pet</router-link> -->
+    </div>
+    <router-view/>
   </div>
-  <router-view/>
 </template>
-
+<script>
+// @ is an alias to /src
+import Navigation from '@/components/includes/navigation.vue'
+export default {
+  name: 'app',
+  components: {
+    Navigation
+  }
+}
+</script>
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
